@@ -11,6 +11,7 @@
 
 
     <!-- FAVI ICON -->
+    <link rel="shortcut icon" href="./favicon.svg" type="svg/x-icon">
 
     <!-- GOOGLE FONT LINK -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -23,6 +24,11 @@
     <!-- CUSTOMS CSS LINK -->
     <link rel="stylesheet" href="./css/style.css">
 
+
+    <!-- CDN FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
 </head>
 
 <body>
@@ -30,7 +36,7 @@
     <!-- TOP BAR -->
     <header class="topbar">
         <a href="#" class="logo">
-            <img class="dark" src="./assets/images/Logo_dark.png" alt="DevFolio" width="145px" height="32px">
+            <img class="dark" src="./assets/images/Logo_dark.png" alt="DevFolio" width="145" height="32">
             <img class="light" src="./assets/images/Logo_light.png" alt="DevFolio" width="145px" height="32px">
         </a>
         <button class="icon-btn theme-btn" data-theme-btn>
@@ -47,10 +53,10 @@
             <section class="section hero">
                 <div class="container">
                     <figure class="hero-banner img-holder" style="--width:240; --heigth:240;">
-                        <img src="./assets/images/profile.png" width="240" height="240" alt="Edwin Guarisma" class="img-cover">
+                        <img src="./assets/images/profile-2.jpg" width="240" height="240" alt="Edwin Guarisma" class="img-cover">
                     </figure>
                     <div class="hero-content">
-                        <span class="label-large section-subtitle">
+                        <span class="label-large section-subtitle active-work">
                             Disponible para trabajar
                         </span>
 
@@ -59,8 +65,9 @@
                         </h1>
 
                         <p class="body-large section-text">
-                            Soy estudiante de Ingeniería Informática, con más de tres años de experiencia en el desarrollador web Frontend. Me dedico a transformar negocios al ámbito digital mediante estrategias de marketing efectivas y la creación de contenido. Mi especialidad
-                            radica en incrementar las ventas y optimizar la automatización de empresas.
+                            Soy estudiante de Ingeniería Informática, con más de tres años de experiencia en el desarrollador web Frontend. <span class="text-importante">Me dedico a transformar negocios
+                                al ámbito digital mediante estrategias de marketing efectivas y la creación de
+                                contenido.</span>Mi especialidad radica en incrementar las ventas y optimizar la automatización de empresas.
                         </p>
 
                         <div class="btn-wrapper">
@@ -121,19 +128,17 @@
                     </ul>
                 </div>
 
-
-
                 <div class="section">
                     <!-- PRIMARY TABS -->
                     <div class="primary-tabs">
-                        <button class="tab-btn active" data-tab-btn="project">
-                            <span class="tab-text title-small">Proyectos</span>
+                        <button class="tab-btn active" data-tab-btn="resume">
+                            <span class="tab-text title-small">Experiencia laboral</span>
 
                             <div class="state-layer"></div>
                         </button>
 
-                        <button class="tab-btn" data-tab-btn="resume">
-                            <span class="tab-text title-small">Experiencia laboral</span>
+                        <button class="tab-btn" data-tab-btn="project">
+                            <span class="tab-text title-small">Proyectos</span>
 
                             <div class="state-layer"></div>
                         </button>
@@ -145,6 +150,320 @@
                         </button>
                     </div>
 
+
+                    <!-- RESUMEN -->
+                    <section class="section tab-content resume-tab active" data-tab-content="resume">
+                        <div class="container">
+                            <div class="laboral">
+                                <h2 class="section-title title-small">
+                                    Experiencia laboral como Dev 🧑‍💻
+                                </h2>
+
+                                <ul class="list">
+
+                                    <li class="resume-item">
+                                        <div class="resume-card">
+                                            <p class="body-large">
+                                                Desarrollador Web, La Esperanza Exequiales
+                                            </p>
+
+                                            <span class="label-medium card-subtitle">
+                                                2023 - 2024
+                                            </span>
+
+                                            <span class="body-medium card-text">
+                                                Lideré el desarrollo de su página web y un sistema de gestión de
+                                                formularios
+                                                de afiliaciones, lo que resultó en una mayor eficiencia y procesos
+                                                optimizados.
+                                            </span>
+                                        </div>
+                                    </li>
+
+                                    <li class="resume-item">
+                                        <div class="resume-card">
+                                            <p class="body-large">
+                                                Desarrollador Web, Corporación Dispar
+                                            </p>
+
+                                            <span class="label-medium card-subtitle">
+                                                2022 - 2024
+                                            </span>
+
+                                            <span class="body-medium card-text">
+                                                Lideré el desarrollo de su página web y un sistema para mostrar su
+                                                inventario en dicha página lo que facilito su estrategia de marketing y
+                                                la
+                                                manera en como facilitaba a los usuarios su interacción con la empresa.
+                                            </span>
+                                        </div>
+                                    </li>
+
+                                    <li class="resume-item">
+                                        <div class="resume-card">
+                                            <p class="body-large">
+                                                Desarrollador Web, Hipermercado Salto Ángel
+                                            </p>
+
+                                            <span class="label-medium card-subtitle">
+                                                2023 - 2024
+                                            </span>
+
+                                            <span class="body-medium card-text">
+                                                Dirigí el desarrollo de su página web y tienda virtual, lo que facilitó
+                                                su
+                                                estrategia de ventas y permitió alcanzar a un público más amplio a
+                                                través de
+                                                su tienda online
+                                            </span>
+                                        </div>
+                                    </li>
+
+                                    <li class="resume-item">
+                                        <div class="resume-card">
+                                            <p class="body-large">
+                                                Desarrollador Web, CafeMarketing
+                                            </p>
+
+                                            <span class="label-medium card-subtitle">
+                                                2022 - 2023
+                                            </span>
+
+                                            <span class="body-medium card-text">
+                                                Encargado del desarrollo de páginas webs en la agencia y el sistema de
+                                                optimización digital de estas, logre trabajar con clientes de España y
+                                                Republica dominicana
+                                            </span>
+                                        </div>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+
+                            <div class="laboral">
+                                <h2 class="section-title title-small">
+                                    Experiencia laboral como Community Manager 🧑📱
+                                </h2>
+
+                                <ul class="list">
+
+                                    <li class="resume-item">
+                                        <div class="resume-card">
+                                            <p class="body-large">
+                                                Community Manager, RE/MAX LANIBER
+                                            </p>
+
+                                            <span class="label-medium card-subtitle">
+                                                2023 - Presente
+                                            </span>
+
+                                            <span class="body-medium card-text">
+                                                Como community manager y creador de contenido, desarrollé estrategias de
+                                                comunicación que mejoraron la presencia de la marca en redes sociales.
+                                                Logré aumentar la interacción con los clientes y generé contenido
+                                                relevante que contribuyó a un crecimiento del 30% en las consultas de
+                                                propiedades.
+                                            </span>
+                                        </div>
+                                    </li>
+
+                                    <li class="resume-item">
+                                        <div class="resume-card">
+                                            <p class="body-large">
+                                                Community Manager, Sarita Tours
+                                            </p>
+
+                                            <span class="label-medium card-subtitle">
+                                                2023 - Presente
+                                            </span>
+
+                                            <span class="body-medium card-text">
+                                                En mi rol como community manager, diseñé campañas de marketing digital y
+                                                generé contenido atractivo para promocionar paquetes turísticos. Gracias
+                                                a mis esfuerzos, se logró un incremento del 25% en las reservas en línea
+                                                y una mayor visibilidad en el mercado local.
+                                            </span>
+                                        </div>
+                                    </li>
+
+                                    <li class="resume-item">
+                                        <div class="resume-card">
+                                            <p class="body-large">
+                                                Community Manager, CIEBO
+                                            </p>
+
+                                            <span class="label-medium card-subtitle">
+                                                2023 - 2024
+                                            </span>
+
+                                            <span class="body-medium card-text">
+                                                Como creador de contenido, trabajé en la elaboración de materiales
+                                                informativos que ayudaron a establecer un orden y claridad en las
+                                                operaciones de las inmobiliarias de la región. Esto resultó en una
+                                                mejora notable en la colaboración entre las agencias y un aumento del
+                                                40% en la participación en sus eventos.
+                                            </span>
+                                        </div>
+                                    </li>
+
+                                    <li class="resume-item">
+                                        <div class="resume-card">
+                                            <p class="body-large">
+                                                Proyectos Diversos
+                                            </p>
+
+                                            <span class="label-medium card-subtitle">
+                                                2019 - 2024
+                                            </span>
+
+                                            <span class="body-medium card-text">
+                                                He gestionado la creación de contenido y la presencia en redes sociales
+                                                para varias empresas, lo que me permitió desarrollar habilidades en
+                                                marketing digital. Mis iniciativas llevaron a un aumento generalizado
+                                                del engagement y la fidelización de clientes, contribuyendo al
+                                                crecimiento de las marcas con las que colaboré.
+                                            </span>
+                                        </div>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                            <h2 class="section-title title-small">
+                                Educación
+                            </h2>
+                            <ul class="list">
+
+                                <li class="resume-item">
+                                    <div class="resume-card">
+                                        <p class="body-large">
+                                            Certification in Web Development with React.js (Udemy Certification)
+                                        </p>
+
+                                        <span class="label-medium card-subtitle">
+                                            2023 - 2024
+                                        </span>
+                                    </div>
+                                </li>
+
+                                <li class="resume-item">
+                                    <div class="resume-card">
+                                        <p class="body-large">
+                                            Estudiante de Ingeniería Informatica, Universidad Gran Marisca de Ayacucho
+                                        </p>
+
+                                        <span class="label-medium card-subtitle">
+                                            2023 - Presente
+                                        </span>
+                                    </div>
+                                </li>
+
+
+
+
+                            </ul>
+
+                            <div class="habilidades">
+                                <h2 class="section-title title-small">
+                                    Habilidades y Tecnologías Dev
+                                </h2>
+
+                                <ul class="resume-bottom-list">
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/html5.svg" width="28" height="28" loading="lazy" alt="HTML5" class="icon">
+                                        <span class="label-medium">
+                                            HTML5
+                                        </span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/css3.svg" width="28" height="28" loading="lazy" alt="CSS3" class="icon">
+                                        <span class="label-medium">
+                                            CSS3
+                                        </span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/javascript.svg" width="28" height="28" loading="lazy" alt="JavaScript" class="icon">
+                                        <span class="label-medium">
+                                            JavaScript
+                                        </span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/react.js.svg" width="28" height="28" loading="lazy" alt="React.js" class="icon">
+                                        <span class="label-medium">
+                                            React.js
+                                        </span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/github.svg" width="28" height="28" loading="lazy" alt="GitHub" class="icon">
+                                        <span class="label-medium">
+                                            GitHub
+                                        </span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/php.png" width="28" height="28" loading="lazy" alt="GitHub" class="icon">
+                                        <span class="label-medium">
+                                            PHP
+                                        </span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/wordpress.png" width="28" height="28" loading="lazy" alt="GitHub" class="icon">
+                                        <span class="label-medium">
+                                            Wordpress
+                                        </span>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <div class="habilidades-icon">
+                                <h2 class="section-title title-small">
+                                    Habilidades y Tecnologías Diseño
+                                </h2>
+
+                                <ul class="resume-bottom-list">
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/photoshop.png" width="28" height="28" loading="lazy" alt="HTML5" class="icon">
+                                        <span class="label-medium">
+                                            Photoshop
+                                        </span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/figma.png" width="28" height="28" loading="lazy" alt="CSS3" class="icon">
+                                        <span class="label-medium">
+                                            Figma
+                                        </span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/capcut-logo-png.png" width="28" height="28" loading="lazy" alt="JavaScript" class="icon">
+                                        <span class="label-medium">
+                                            Capcut
+                                        </span>
+                                    </li>
+
+                                    <li class="resume-bottom-item">
+                                        <img src="./assets/images/meta-icon-png.png" width="28" height="28" loading="lazy" alt="React.js" class="icon">
+                                        <span class="label-medium">
+                                            Meta Business
+                                        </span>
+                                    </li>
+
+
+
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
 
                     <!-- PROJECTS -->
                     <section class="section tab-content" data-tab-content="project">
@@ -208,141 +527,120 @@
                     </section>
 
 
-                    <!-- RESUMEN -->
-                    <section class="section tab-content resume-tab" data-tab-content="resume">
+                    <!-- CONTACT -->
+                    <section class="section tab-content contact-tab" data-tab-content="contact">
                         <div class="container">
-                            <h2 class="section-title title-small">
-                                Experiencia laboral
-                            </h2>
+                            <div class="contact-info">
+                                <h2 class="section-title title-small">
+                                    Información de Contacto
+                                </h2>
 
-                            <ul class="list">
+                                <ul class="contact-info-list">
+                                    <li class="contact-info-item">
+                                        <div class="icon-box">
+                                            <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+                                        </div>
 
-                                <li class="resume-item">
-                                    <div class="resume-card">
-                                        <p class="body-large">
-                                            Software Engineer, TechGulf Solutions
-                                        </p>
+                                        <div class="info-content">
+                                            <p class="label-small info-title">
+                                                Envíame un Correo
+                                            </p>
 
-                                        <span class="label-medium card-subtitle">
-                                            2018 - Present
-                                        </span>
+                                            <a href="mailto:proyectoedwinjose@gmail.com" class="label-small info-text">
+                                                proyectoedwinjose@gmail.com
+                                            </a>
+                                        </div>
+                                    </li>
 
-                                        <span class="body-medium card-text">
-                                            Led the development of a customer management system, resulting in improved
-                                            efficiency and streamlined processes.
-                                        </span>
-                                    </div>
-                                </li>
+                                    <li class="contact-info-item">
+                                        <div class="icon-box">
+                                            <span class="material-symbols-outlined" aria-hidden="true"> call </span>
+                                        </div>
 
-                                <li class="resume-item">
-                                    <div class="resume-card">
-                                        <p class="body-large">
-                                            Software Developer Intern, ByteOasis Corporation
-                                        </p>
+                                        <div class="info-content">
+                                            <p class="label-small info-title">
+                                                Contáctame
+                                            </p>
 
-                                        <span class="label-medium card-subtitle">
-                                            2016 - 2017
-                                        </span>
+                                            <a href="tel:+584122072810" class="label-small info-text">
+                                                +584122072810
+                                            </a>
+                                        </div>
+                                    </li>
 
-                                        <span class="body-medium card-text">
-                                            Assisted in the development and testing of a mobile application for internal
-                                            use.
-                                        </span>
-                                    </div>
-                                </li>
+                                    <li class="contact-info-item">
+                                        <div class="icon-box">
+                                            <span class="material-symbols-outlined" aria-hidden="true"> location_on
+                                            </span>
+                                        </div>
 
+                                        <div class="info-content">
+                                            <p class="label-small info-title">
+                                                Dirección
+                                            </p>
 
-                            </ul>
+                                            <a href="#" class="label-small info-text">
+                                                Puerto Ordaz, Estado Bolívar - Venezuela
+                                            </a>
+                                        </div>
+                                    </li>
+                                </ul>
 
-                            <h2 class="section-title title-small">
-                                Educación
-                            </h2>
-                            <ul class="list">
+                                <h4 class="title-small">Información Social</h4>
+                                <div class="social-list">
+                                    <a target="_blank" href="https://www.instagram.com/edwinguarisma" class="social-item">
+                                        <i class="fa-brands fa-instagram social-item-icon"></i>
+                                    </a>
+                                    <a target="_blank" href="https://www.tiktok.com/@proyecto_edwin" class="social-item">
+                                        <i class="fa-brands fa-tiktok social-item-icon"></i>
+                                    </a>
+                                    <a target="_blank" href="https://github.com/edwinguarisma/" class="social-item">
+                                        <i class="fa-brands fa-github social-item-icon"></i>
+                                    </a>
 
-                                <li class="resume-item">
-                                    <div class="resume-card">
-                                        <p class="body-large">
-                                            Certification in Web Development with React.js (FreeCodeCamp Certification)
-                                        </p>
-
-                                        <span class="label-medium card-subtitle">
-                                            2015 - 2016
-                                        </span>
-                                    </div>
-                                </li>
-
-                                <li class="resume-item">
-                                    <div class="resume-card">
-                                        <p class="body-large">
-                                            Relevant Coursework: Data Structures, Algorithms, Database Management
-                                        </p>
-
-                                        <span class="label-medium card-subtitle">
-                                            2014 - 2013
-                                        </span>
-                                    </div>
-                                </li>
+                                </div>
+                            </div>
+                            <div class="contact-form">
+                                <h3 class="title-large">
+                                    Trabajemos juntos.
+                                </h3>
 
 
+                                <form action="enviar.php" method="post" class="input-wrapper">
+                                    <input type="text" name="name" placeholder="Nombre" class="input-field" required>
 
+                                    <input type="email" name="email" placeholder="Correo Electrónico" class="input-field" required>
 
-                            </ul>
+                                    <input type="text" name="asunto" placeholder="Asunto" class="input-field" required>
 
-                            <h2 class="section-title title-small">
-                                Habilidades y Tecnologías
-                            </h2>
+                                    <textarea name="message" placeholder="Mensaje" class="textarea" required></textarea>
 
-                            <ul class="resume-bottom-list">
+                                    <button type="submit" class="btn">
+                                        <span class="label-large">Enviar Mensaje</span>
 
-                                <li class="resume-bottom-item">
-                                    <img src="./assets/images/html5.svg" width="28" height="28" loading="lazy" alt="HTML5" class="icon">
-                                    <span class="label-medium">
-                                        HTML5
-                                    </span>
-                                </li>
+                                        <div class="state-layer"></div>
 
-                                <li class="resume-bottom-item">
-                                    <img src="./assets/images/css3.svg" width="28" height="28" loading="lazy" alt="CSS3" class="icon">
-                                    <span class="label-medium">
-                                        CSS3
-                                    </span>
-                                </li>
+                                    </button>
+                                </form>
 
-                                <li class="resume-bottom-item">
-                                    <img src="./assets/images/javascript.svg" width="28" height="28" loading="lazy" alt="JavaScript" class="icon">
-                                    <span class="label-medium">
-                                        JavaScript
-                                    </span>
-                                </li>
-
-                                <li class="resume-bottom-item">
-                                    <img src="./assets/images/react.js.svg" width="28" height="28" loading="lazy" alt="React.js" class="icon">
-                                    <span class="label-medium">
-                                        React.js
-                                    </span>
-                                </li>
-
-                                <li class="resume-bottom-item">
-                                    <img src="./assets/images/github.svg" width="28" height="28" loading="lazy" alt="GitHub" class="icon">
-                                    <span class="label-medium">
-                                        GitHub
-                                    </span>
-                                </li>
-
-                            </ul>
+                            </div>
                         </div>
                     </section>
 
 
                 </div>
-            </div>
-            </div>
-            </section>
 
             </div>
-            </div>
+
         </article>
     </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <p class="body-medium">Copyright 2024 <a href="https://www.instagram.com/edwinguarisma">Edwin Guarisma</a>. Casi todos los derechos reservados</p>
+        </div>
+    </footer>
 
 
 
